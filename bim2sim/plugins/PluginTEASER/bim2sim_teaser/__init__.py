@@ -39,7 +39,7 @@ class PluginTEASER(Plugin):
         teaser_task.SerializeTEASER,
         common.SerializeElements,
         teaser_task.ExportTEASER,
-        teaser_task.SimulateModelEBCPy,
+        teaser_task.SimulateModelOM,
         teaser_task.CreateResultDF,
         bps.PlotBEPSResults,
     ]

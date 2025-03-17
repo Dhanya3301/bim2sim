@@ -455,6 +455,11 @@ class BaseSimSettings(metaclass=AutoSettingNameMeta):
         description='Run a Simulation with Dymola after model export?',
         for_frontend=True
     )
+    ompython_simulation = BooleanSetting(
+        default=False,
+        description='Run a Simulation with OMPython after model export?',
+        for_frontend=True
+    )
     create_external_elements = BooleanSetting(
         default=False,
         description='Create external elements?',
